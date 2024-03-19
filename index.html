@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>To-Do list <img src="image/icon.png" alt="icon" /></h2>
+        <div class="row">
+          <input
+            type="text"
+            id="input-box"
+            placeholder="Add your text"
+            autofocus
+          />
+          <button onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="list-container"></ul>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
